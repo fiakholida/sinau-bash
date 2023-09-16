@@ -1,0 +1,6 @@
+if command -v tree
+then
+        echo "tree sudah d install"
+else 
+        echo apt install tree
+fi
