@@ -1,5 +1,7 @@
 #!/bin/bash
 for number in {1..50}; do
 mkdir -p folder$number
-printf "Halo saya adalah file ke $number\nSaya dibuat pada: $(date)\n"> "folder$number/$number.txt"
+for txt in {1..50}; do
+printf "Halo saya adalah file ke $number\nSaya dibuat pada: $(date)\n"> "folder$number/$txt.txt"
+done
 done
